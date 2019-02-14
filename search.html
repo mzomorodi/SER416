@@ -18,10 +18,57 @@
 		<main>
 			<h2>Search for Services</h2>
 			<div>
+				<input type="text" name="searchbar"><input type="submit" value="Search">
+			</div>
+			<div>
 				<form>
+					<fieldset>
+						<input type="radio" name="search" value="basic">Basic Search
+						<input type="radio" name="search" value="advanced"> Advanced Search
+					</fieldset>
 				</form>
 			</div>
 			<div>
+				<table>
+					<caption>My Services</caption>
+					<thead>
+						<tr>
+							<td>ServiceID</td>
+							<td>Title</td>
+							<td>Description</td>
+							<td>Start Date</td>
+							<td>End Date</td>
+							<td>Quantity</td>
+							<td>Units</td>
+							<td>Cost</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>S20332</td>
+							<td>Intro to Spanish</td>
+							<td>Alphabet, pronunciation, basic grammar</td>
+							<td>01/12/2019</td>
+							<td>04/23/2019</td>
+							<td>33</td>
+							<td>Seats</td>
+							<td>&#36 0.00</td>
+							<td><input type="submit" value="View"></td>
+						</tr>
+						<tr>
+							<td>S25099</td>
+							<td>Notary Public</td>
+							<td>Copyright, translation, signed notary</td>
+							<td>01/01/2019</td>
+							<td>12/31/2019</td>
+							<td>125</td>
+							<td>Hours</td>
+							<td>&#36 25.00</td>
+							<td><input type="submit" value="View"></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</main>
 		<footer>

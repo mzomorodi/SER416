@@ -19,12 +19,21 @@
 			<form>
 				<fieldset>
 					<legend>Offer New Service</legend>
+					Title<br/>
+					<input type="text" name="title"><br/>
 					Description<br/>
-					<textarea name="description" rows="20" cols="5"><br/>
-					<input type="radio" name="type" value="fee"> Fee-based 
-					<input type="radio" name="type" value="free"> Free
-					<input type="text" name="price"><br/>
-					INSERT MORE INPUT TYPES HERE
+					<textarea name="description" rows="5" cols="20"></textarea><br/>
+					Start Date<br/>
+					<input type="date" name="start"><br/>
+					End Date<br/>
+					<input type="date" name="start"><br/>
+					Quantity<br/>
+					<input type="number" name="quantity" min="1"><br/>
+					Units<br/>
+					<input type="text" name="units"><br/>
+					Cost<br/>
+					<input type="text" name="cost"><br/>
+					<input type="submit" value="Submit">
 				</fieldset>
 			</form>
 		</main>
