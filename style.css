@@ -1,0 +1,85 @@
+/*
+dark blue:		1435B2
+med blue:		3660FF
+lite blue:		5074FF
+light sand:		FFD766
+dark sand:		B28402
+*/
+
+* {
+	margin: 0px;
+	border-width: 3px;
+}
+
+body {
+	border-style: solid;
+	border-color: #400000;
+	background-color: #FFFFFF;
+	font-size: 1.5em;
+}
+
+header {
+	border-style: solid;
+	border-color: #E50000;
+	background-color: #FFFFFF;
+	color: #0089B2;
+	background-image: url(puzzle.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 100px;
+}
+
+h1 {
+	border-style: solid;
+	border-color: #000000;
+	text-align: center;
+	height: 94px;
+}
+
+nav {
+	border-style: solid;
+	border-color: #E50000;
+	background-color: #FF0000;
+	padding: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	border-color: #FFFFFF;
+	border-style: outset;
+	padding: 3px;
+	margin: 0;
+}
+
+nav ul li {
+	width: 180px;
+	display: inline-block;
+	border-style: outset;
+	padding: 5px;
+}
+
+nav a {
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+main {
+	border-style: solid;
+	border-color: #E50000;
+	background-color: #FF0000;
+}
+
+footer {
+	border-style: solid;
+	border-color: #E50000;
+	background-color: #FF0000;
+	color: #FFFFFF;
+	font-size: 1em;
+	text-align: center;
+}
+
+#afoot {
+	color: #FFFFFF;
+}
