@@ -12,17 +12,13 @@ dark sand:		B28402
 }
 
 body {
-	border-style: solid;
-	border-color: #400000;
-	background-color: #FFFFFF;
 	font-size: 1.5em;
+	padding: 1em;
 }
 
 header {
-	border-style: solid;
-	border-color: #E50000;
-	background-color: #FFFFFF;
-	color: #0089B2;
+	font-size: 1.5em;
+	color: #1435B2;
 	background-image: url(puzzle.png);
 	background-position: left;
 	background-repeat: no-repeat;
@@ -30,56 +26,57 @@ header {
 }
 
 h1 {
-	border-style: solid;
-	border-color: #000000;
 	text-align: center;
 	height: 94px;
+	padding-left: 10px;
 }
 
 nav {
-	border-style: solid;
-	border-color: #E50000;
-	background-color: #FF0000;
-	padding: 0;
+	padding: 3px;
 }
 
 nav ul {
-	list-style-type: none;
 	text-align: center;
-	border-color: #FFFFFF;
-	border-style: outset;
 	padding: 3px;
-	margin: 0;
 }
 
 nav ul li {
-	width: 180px;
 	display: inline-block;
 	border-style: outset;
-	padding: 5px;
+	width: 180px;
 }
 
 nav a {
+	list-style-type: none;
+	color: #1435B2;
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
 }
 
 main {
+	max-width: 60%;
 	border-style: solid;
 	border-color: #E50000;
-	background-color: #FF0000;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 footer {
-	border-style: solid;
-	border-color: #E50000;
-	background-color: #FF0000;
-	color: #FFFFFF;
-	font-size: 1em;
+	color: #1435B2;
 	text-align: center;
 }
 
-#afoot {
-	color: #FFFFFF;
+.link {
+	color: #1435B2;
+}
+
+form a {
+	border-style: outset;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center; 
 }
