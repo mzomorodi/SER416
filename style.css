@@ -9,6 +9,7 @@ dark sand:		B28402
 * {
 	margin: 0px;
 	border-width: 3px;
+	box-sizing: border-box;
 }
 
 body {
@@ -57,12 +58,13 @@ nav a {
 main {
 	max-width: 60%;
 	border-style: solid;
-	border-color: #E50000;
+	border-color: #000000;
 	background-color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	padding: 5px;
 }
 
 footer {
@@ -74,9 +76,46 @@ footer {
 	color: #1435B2;
 }
 
+form {
+	width: 80%;
+	margin: auto;
+}
+
+form legend {
+	text-align: center;
+	font-weight: bold;
+	color: #1435B2;
+}
+
 form a {
+	width: 300px;
+	color: #FFFFFF;
 	border-style: outset;
+	border-color: #FFD766;
+	background-color: #B28402;
 	font-weight: bold;
 	text-decoration: none;
-	text-align: center; 
+	text-align: center;
+	margin-top: 5px;
+}
+
+.left {
+	float: left;
+}
+
+label {
+	float: left;
+	clear: left;
+	width: 250px;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.clear {
+	text-align: center;
+	clear: both;
+}
+
+div {
+	margin: 5px;
 }
